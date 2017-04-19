@@ -32,15 +32,22 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="576"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Album 1960-1970" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NR3-jM-tCI">
+                                            <rect key="frame" x="0.0" y="86" width="320" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iuq-Wg-mza">
-                                            <rect key="frame" x="0.0" y="500" width="320" height="76"/>
+                                            <rect key="frame" x="0.0" y="520" width="320" height="56"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="9eh-Se-ykX">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIV-nE-KBD">
-                                                        <rect key="frame" x="126" y="2" width="69" height="69"/>
+                                                        <rect key="frame" x="141" y="8" width="38" height="39"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" image="Play">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -50,13 +57,60 @@
                                             </view>
                                             <blurEffect style="light"/>
                                         </visualEffectView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Album 1960-1970" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NR3-jM-tCI">
-                                            <rect key="frame" x="0.0" y="108" width="320" height="28"/>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCq-qR-T2g">
+                                            <rect key="frame" x="8" y="128" width="304" height="384"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
-                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="vTR-MA-0XG">
+                                                    <rect key="frame" x="1" y="294" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="With The Beatles" translatesAutoresizingMaskIntoConstraints="NO" id="m0p-vC-PSG">
+                                                    <rect key="frame" x="105" y="294" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="J3p-J3-R5C">
+                                                    <rect key="frame" x="209" y="294" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-ub-kbG">
+                                                    <rect key="frame" x="0.0" y="196" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="eEa-qJ-29G">
+                                                    <rect key="frame" x="104" y="196" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yellow Submarine" translatesAutoresizingMaskIntoConstraints="NO" id="kh3-ka-Yae">
+                                                    <rect key="frame" x="208" y="196" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubber Soul" translatesAutoresizingMaskIntoConstraints="NO" id="sMZ-pX-2FG">
+                                                    <rect key="frame" x="1" y="98" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-m8-Q3K">
+                                                    <rect key="frame" x="105" y="98" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="Num-ol-WcU">
+                                                    <rect key="frame" x="209" y="98" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="oAL-1l-jMe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="cjx-Hp-KZL">
+                                                    <rect key="frame" x="104" y="0.0" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Revolver" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-lx-pV9">
+                                                    <rect key="frame" x="208" y="0.0" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
                                     </subviews>
                                 </view>
                                 <blurEffect style="dark"/>
@@ -95,6 +149,11 @@
     </scenes>
     <resources>
         <image name="Play" width="69" height="69"/>
+        <image name="Revolver" width="1636" height="1482"/>
+        <image name="Rubber Soul" width="1636" height="1482"/>
+        <image name="Sgt. Peper's Lonely Hearts Club Band" width="1636" height="1482"/>
+        <image name="With The Beatles" width="1636" height="1482"/>
+        <image name="Yellow Submarine" width="1636" height="1482"/>
         <image name="collage" width="640" height="1136"/>
     </resources>
 </document>
