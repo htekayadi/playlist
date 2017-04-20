@@ -61,28 +61,16 @@
                                             <rect key="frame" x="8" y="128" width="304" height="384"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="vTR-MA-0XG">
-                                                    <rect key="frame" x="1" y="294" width="95" height="90"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="oAL-1l-jMe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="With The Beatles" translatesAutoresizingMaskIntoConstraints="NO" id="m0p-vC-PSG">
-                                                    <rect key="frame" x="105" y="294" width="95" height="90"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="cjx-Hp-KZL">
+                                                    <rect key="frame" x="104" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="J3p-J3-R5C">
-                                                    <rect key="frame" x="209" y="294" width="95" height="90"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-ub-kbG">
-                                                    <rect key="frame" x="0.0" y="196" width="95" height="90"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="eEa-qJ-29G">
-                                                    <rect key="frame" x="104" y="196" width="95" height="90"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yellow Submarine" translatesAutoresizingMaskIntoConstraints="NO" id="kh3-ka-Yae">
-                                                    <rect key="frame" x="208" y="196" width="95" height="90"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Revolver" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-lx-pV9">
+                                                    <rect key="frame" x="208" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubber Soul" translatesAutoresizingMaskIntoConstraints="NO" id="sMZ-pX-2FG">
@@ -97,16 +85,28 @@
                                                     <rect key="frame" x="209" y="98" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="oAL-1l-jMe">
-                                                    <rect key="frame" x="0.0" y="0.0" width="95" height="90"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-ub-kbG">
+                                                    <rect key="frame" x="0.0" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="cjx-Hp-KZL">
-                                                    <rect key="frame" x="104" y="0.0" width="95" height="90"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="eEa-qJ-29G">
+                                                    <rect key="frame" x="104" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Revolver" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-lx-pV9">
-                                                    <rect key="frame" x="208" y="0.0" width="95" height="90"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yellow Submarine" translatesAutoresizingMaskIntoConstraints="NO" id="kh3-ka-Yae">
+                                                    <rect key="frame" x="208" y="196" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="vTR-MA-0XG">
+                                                    <rect key="frame" x="1" y="294" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="With The Beatles" translatesAutoresizingMaskIntoConstraints="NO" id="m0p-vC-PSG">
+                                                    <rect key="frame" x="105" y="294" width="95" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="J3p-J3-R5C">
+                                                    <rect key="frame" x="209" y="294" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -119,6 +119,20 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="The Beatles" id="yfv-0g-row"/>
+                    <connections>
+                        <outlet property="coverImage0" destination="oAL-1l-jMe" id="r2l-Pw-uWB"/>
+                        <outlet property="coverImage1" destination="cjx-Hp-KZL" id="52R-3G-P17"/>
+                        <outlet property="coverImage10" destination="m0p-vC-PSG" id="cvY-S5-gTz"/>
+                        <outlet property="coverImage11" destination="J3p-J3-R5C" id="JhJ-uI-ehG"/>
+                        <outlet property="coverImage2" destination="QuI-lx-pV9" id="2Vy-Gl-Ru2"/>
+                        <outlet property="coverImage3" destination="sMZ-pX-2FG" id="Qkx-Ks-YKY"/>
+                        <outlet property="coverImage4" destination="TFf-m8-Q3K" id="PVN-Of-Fsa"/>
+                        <outlet property="coverImage5" destination="Num-ol-WcU" id="zhx-J6-zUh"/>
+                        <outlet property="coverImage6" destination="hpE-ub-kbG" id="zNh-oZ-td0"/>
+                        <outlet property="coverImage7" destination="eEa-qJ-29G" id="Tnt-wn-NgO"/>
+                        <outlet property="coverImage8" destination="kh3-ka-Yae" id="xBg-ZZ-twM"/>
+                        <outlet property="coverImage9" destination="vTR-MA-0XG" id="Rh7-Qs-5aX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
