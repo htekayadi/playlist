@@ -15,6 +15,7 @@
 		2720489F1EA7ABBE0011B362 /* playlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2720489E1EA7ABBE0011B362 /* playlistUITests.swift */; };
 		272048AD1EA7AD350011B362 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 272048AC1EA7AD350011B362 /* .gitignore */; };
 		2738D6A21EA8F723009BE610 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738D6A11EA8F723009BE610 /* PlaylistViewController.swift */; };
+		2738D6A41EA903A2009BE610 /* AlbumLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738D6A31EA903A2009BE610 /* AlbumLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		272048A01EA7ABBE0011B362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		272048AC1EA7AD350011B362 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2738D6A11EA8F723009BE610 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		2738D6A31EA903A2009BE610 /* AlbumLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,8 @@
 			children = (
 				2720487E1EA7ABBE0011B362 /* AppDelegate.swift */,
 				272048821EA7ABBE0011B362 /* Main.storyboard */,
-				2738D6A11EA8F723009BE610 /* PlaylistViewController.swift */,
+				2738D6A61EA903D4009BE610 /* model */,
+				2738D6A51EA903C3009BE610 /* controller */,
 				272048851EA7ABBE0011B362 /* Assets.xcassets */,
 				272048871EA7ABBE0011B362 /* LaunchScreen.storyboard */,
 				2720488A1EA7ABBE0011B362 /* Info.plist */,
@@ -126,6 +129,22 @@
 				272048A01EA7ABBE0011B362 /* Info.plist */,
 			);
 			path = playlistUITests;
+			sourceTree = "<group>";
+		};
+		2738D6A51EA903C3009BE610 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2738D6A11EA8F723009BE610 /* PlaylistViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		2738D6A61EA903D4009BE610 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2738D6A31EA903A2009BE610 /* AlbumLibrary.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2738D6A21EA8F723009BE610 /* PlaylistViewController.swift in Sources */,
+				2738D6A41EA903A2009BE610 /* AlbumLibrary.swift in Sources */,
 				2720487F1EA7ABBE0011B362 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
