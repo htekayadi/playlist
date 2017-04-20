@@ -33,8 +33,13 @@ class PlaylistViewController: UIViewController {
     }
 
     func updateUI() {
-        for coverImage in coverImages {
-            coverImage.image = UIImage(named: "With The Beatles")
+        for i in 0..<coverImages.count {
+            var coverImage = coverImages[i]
+            let albums = AlbumLibrary().albums
+            let album = albums[i]
+            if let imageName = album["coverImageName"] as? String {
+                coverImage.image = UIImage(named: imageName)
+            }
         }
     }
 }
