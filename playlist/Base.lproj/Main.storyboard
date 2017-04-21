@@ -64,50 +64,98 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="oAL-1l-jMe">
                                                     <rect key="frame" x="0.0" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="8QL-AI-n8O" appends="YES" id="Euv-lO-mdr"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="cjx-Hp-KZL">
                                                     <rect key="frame" x="104" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="DfT-d2-qUk" appends="YES" id="Ia0-ut-lOr"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Revolver" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-lx-pV9">
                                                     <rect key="frame" x="208" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="v67-Ww-VYi" appends="YES" id="8UY-8L-FgK"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubber Soul" translatesAutoresizingMaskIntoConstraints="NO" id="sMZ-pX-2FG">
                                                     <rect key="frame" x="1" y="98" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="H2B-c9-jpz" appends="YES" id="otK-VL-nvS"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-m8-Q3K">
                                                     <rect key="frame" x="105" y="98" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="EiZ-ZF-fmD" appends="YES" id="D53-FC-1t4"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="Num-ol-WcU">
                                                     <rect key="frame" x="209" y="98" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="riN-yD-UK5" appends="YES" id="fZh-K2-hVp"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-ub-kbG">
                                                     <rect key="frame" x="0.0" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="dkh-8q-iq4" appends="YES" id="2GZ-wx-YW3"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="eEa-qJ-29G">
                                                     <rect key="frame" x="104" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="f9p-oi-8z8" appends="YES" id="Vl3-cY-WYH"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yellow Submarine" translatesAutoresizingMaskIntoConstraints="NO" id="kh3-ka-Yae">
                                                     <rect key="frame" x="208" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="7z2-Pg-WKG" appends="YES" id="oaD-Iu-3DO"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="vTR-MA-0XG">
                                                     <rect key="frame" x="1" y="294" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="d4g-mA-kcA" appends="YES" id="lea-6q-hlO"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="With The Beatles" translatesAutoresizingMaskIntoConstraints="NO" id="m0p-vC-PSG">
                                                     <rect key="frame" x="105" y="294" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="ks8-8S-zBK" appends="YES" id="ADg-zK-kuJ"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="J3p-J3-R5C">
                                                     <rect key="frame" x="209" y="294" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="iqO-LQ-MCK" appends="YES" id="zeS-mx-8bc"/>
+                                                    </connections>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -135,6 +183,66 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8QL-AI-n8O">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="Dmc-CP-cZU"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DfT-d2-qUk">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="Vs5-VA-8wm"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="v67-Ww-VYi">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="ih9-Ct-n0V"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="H2B-c9-jpz">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="tEd-PH-ER2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="EiZ-ZF-fmD">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="xjN-pl-vMi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="riN-yD-UK5">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="dHV-tu-Bsg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="dkh-8q-iq4">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="3gu-CS-GyY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="f9p-oi-8z8">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="LeP-qO-68R"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="7z2-Pg-WKG">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="Ey7-QF-KRA"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="d4g-mA-kcA">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="7N9-2p-Dfh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ks8-8S-zBK">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="B7a-iM-22P"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="iqO-LQ-MCK">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="8F5-bw-Uba"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1091.25" y="138.38028169014083"/>
         </scene>

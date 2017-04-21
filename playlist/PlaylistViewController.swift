@@ -42,4 +42,9 @@ class PlaylistViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func showAlbum(_ sender: UITapGestureRecognizer) {
+        
+    }
+    
 }
