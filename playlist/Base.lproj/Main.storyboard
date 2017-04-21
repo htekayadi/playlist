@@ -247,10 +247,10 @@
             </objects>
             <point key="canvasLocation" x="1080" y="138"/>
         </scene>
-        <!--View Controller-->
+        <!--Album View Controller-->
         <scene sceneID="wC4-sM-EZd">
             <objects>
-                <viewController id="Pk0-In-uTX" sceneMemberID="viewController">
+                <viewController id="Pk0-In-uTX" customClass="AlbumViewController" customModule="playlist" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3vj-hb-6uE"/>
                         <viewControllerLayoutGuide type="bottom" id="Uv8-IJ-rap"/>
@@ -289,6 +289,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="albumCoverImageView" destination="gxY-AY-sMg" id="oCJ-75-2Kp"/>
+                        <outlet property="backgroundImageView" destination="vof-UL-HZa" id="0Br-ln-z0z"/>
+                        <outlet property="descriptionTextView" destination="gby-2Q-GZP" id="NZc-yj-oVj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pki-Wl-sNu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
