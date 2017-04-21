@@ -61,7 +61,7 @@
                                             <rect key="frame" x="8" y="128" width="304" height="384"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="oAL-1l-jMe">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="oAL-1l-jMe">
                                                     <rect key="frame" x="0.0" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -69,7 +69,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="8QL-AI-n8O" appends="YES" id="Euv-lO-mdr"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="cjx-Hp-KZL">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="cjx-Hp-KZL">
                                                     <rect key="frame" x="104" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -77,7 +77,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="DfT-d2-qUk" appends="YES" id="Ia0-ut-lOr"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Revolver" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-lx-pV9">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Revolver" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-lx-pV9">
                                                     <rect key="frame" x="208" y="0.0" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -85,7 +85,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="v67-Ww-VYi" appends="YES" id="8UY-8L-FgK"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubber Soul" translatesAutoresizingMaskIntoConstraints="NO" id="sMZ-pX-2FG">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rubber Soul" translatesAutoresizingMaskIntoConstraints="NO" id="sMZ-pX-2FG">
                                                     <rect key="frame" x="1" y="98" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -93,7 +93,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="H2B-c9-jpz" appends="YES" id="otK-VL-nvS"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-m8-Q3K">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-m8-Q3K">
                                                     <rect key="frame" x="105" y="98" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -101,7 +101,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="EiZ-ZF-fmD" appends="YES" id="D53-FC-1t4"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="Num-ol-WcU">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="Num-ol-WcU">
                                                     <rect key="frame" x="209" y="98" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -109,7 +109,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="riN-yD-UK5" appends="YES" id="fZh-K2-hVp"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-ub-kbG">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-ub-kbG">
                                                     <rect key="frame" x="0.0" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -117,7 +117,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="dkh-8q-iq4" appends="YES" id="2GZ-wx-YW3"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="eEa-qJ-29G">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="eEa-qJ-29G">
                                                     <rect key="frame" x="104" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -125,7 +125,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="f9p-oi-8z8" appends="YES" id="Vl3-cY-WYH"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yellow Submarine" translatesAutoresizingMaskIntoConstraints="NO" id="kh3-ka-Yae">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yellow Submarine" translatesAutoresizingMaskIntoConstraints="NO" id="kh3-ka-Yae">
                                                     <rect key="frame" x="208" y="196" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -133,7 +133,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="7z2-Pg-WKG" appends="YES" id="oaD-Iu-3DO"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="vTR-MA-0XG">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="vTR-MA-0XG">
                                                     <rect key="frame" x="1" y="294" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -141,7 +141,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="d4g-mA-kcA" appends="YES" id="lea-6q-hlO"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="With The Beatles" translatesAutoresizingMaskIntoConstraints="NO" id="m0p-vC-PSG">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="With The Beatles" translatesAutoresizingMaskIntoConstraints="NO" id="m0p-vC-PSG">
                                                     <rect key="frame" x="105" y="294" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
@@ -149,7 +149,7 @@
                                                         <outletCollection property="gestureRecognizers" destination="ks8-8S-zBK" appends="YES" id="ADg-zK-kuJ"/>
                                                     </connections>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="J3p-J3-R5C">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sgt. Peper's Lonely Hearts Club Band" translatesAutoresizingMaskIntoConstraints="NO" id="J3p-J3-R5C">
                                                     <rect key="frame" x="209" y="294" width="95" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
