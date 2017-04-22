@@ -17,17 +17,17 @@ class AlbumViewController: UIViewController {
     @IBOutlet weak var descriptionTextView: UITextView!
 
     func updateUI() {
-        let albumName = "\(String(describing: album?.coverImageName))"
+        let albumName = "\((album?.coverImageName)!)"
         backgroundImageView.image = UIImage(named: albumName)
         albumCoverImageView.image = UIImage(named: albumName)
         
         let songList = ((album?.songs)! as NSArray).componentsJoined(by: ", ")
-        descriptionTextView.text = "\(String(describing: album?.description)) \n\nSome songs in the album:\n\(songList)"
+        descriptionTextView.text = "\((album?.description)!) \n\nSome songs in the album:\n\(songList)"
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = "Album"
         updateUI()
     }
 }
