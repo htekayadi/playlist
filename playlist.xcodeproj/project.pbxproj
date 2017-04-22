@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271B65AC1EAB16FF008337FB /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B65AB1EAB16FF008337FB /* Album.swift */; };
 		2720487F1EA7ABBE0011B362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2720487E1EA7ABBE0011B362 /* AppDelegate.swift */; };
 		272048841EA7ABBE0011B362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272048821EA7ABBE0011B362 /* Main.storyboard */; };
 		272048861EA7ABBE0011B362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272048851EA7ABBE0011B362 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271B65AB1EAB16FF008337FB /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		2720487B1EA7ABBE0011B362 /* playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2720487E1EA7ABBE0011B362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		272048831EA7ABBE0011B362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				2738D6A31EA903A2009BE610 /* AlbumLibrary.swift */,
+				271B65AB1EAB16FF008337FB /* Album.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				2738D6A21EA8F723009BE610 /* PlaylistViewController.swift in Sources */,
 				2738D6A41EA903A2009BE610 /* AlbumLibrary.swift in Sources */,
 				2720487F1EA7ABBE0011B362 /* AppDelegate.swift in Sources */,
+				271B65AC1EAB16FF008337FB /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
