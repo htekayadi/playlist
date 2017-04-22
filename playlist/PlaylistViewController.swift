@@ -34,7 +34,7 @@ class PlaylistViewController: UIViewController {
 
     func updateUI() {
         for i in 0..<coverImages.count {
-            var coverImage = coverImages[i]
+            let coverImage = coverImages[i]
             let albums = AlbumLibrary().albums
             let album = albums[i]
             if let imageName = album["coverImageName"] as? String {
@@ -44,7 +44,6 @@ class PlaylistViewController: UIViewController {
     }
     
     @IBAction func showAlbum(_ sender: UITapGestureRecognizer) {
-        print("Perform Segue")
         performSegue(withIdentifier: "Show Album", sender: sender)
     }
     
@@ -53,13 +52,16 @@ class PlaylistViewController: UIViewController {
             switch identifier {
             case "Show Album":
                 let albumViewController = segue.destination as! AlbumViewController
-                print(albumViewController.backgroundImageView)
-                print(albumViewController.albumCoverImageView)
-                print(albumViewController.descriptionTextView)
+                let albumImageView = (sender as! UITapGestureRecognizer).view as! UIImageView
+                if let index = coverImages.index(of: albumImageView){
+                    let album = Album(index: index)
+                    albumViewController.album = album
+                }
             default:
                 break
             }
         }
     }
-    
+
+
 }

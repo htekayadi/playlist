@@ -10,7 +10,7 @@ import UIKit
 
 class AlbumViewController: UIViewController {
 
-    var album: Album? = Album(index: 1)
+    var album: Album? 
     
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var albumCoverImageView: UIImageView!
@@ -28,10 +28,6 @@ class AlbumViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Album view did load")
-        print(backgroundImageView)
-        print(albumCoverImageView)
-        print(descriptionTextView)
         updateUI()
     }
 }
