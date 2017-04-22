@@ -30,4 +30,9 @@ class AlbumViewController: UIViewController {
         title = "Album"
         updateUI()
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        backgroundImageView?.removeFromSuperview()
+    }
 }
