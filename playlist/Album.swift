@@ -20,6 +20,7 @@ class Album {
     var description: String?
     var coverImageName: String?
     var songs: [String]?
+
     
     init(index: Int) {
         if index >= 0 && index < AlbumLibrary().albums.count {
@@ -27,7 +28,9 @@ class Album {
             
             title = album[AlbumKeys.title] as? String
             description = album[AlbumKeys.description] as? String
-            coverImageName = album[AlbumKeys.songs] as? [String]
+            coverImageName = album[AlbumKeys.coverImageName] as? String
+            songs = album[AlbumKeys.songs] as? [String]
+
         }
     }
 }

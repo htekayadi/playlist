@@ -44,7 +44,22 @@ class PlaylistViewController: UIViewController {
     }
     
     @IBAction func showAlbum(_ sender: UITapGestureRecognizer) {
-        print("tap")
+        print("Perform Segue")
+        performSegue(withIdentifier: "Show Album", sender: sender)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            switch identifier {
+            case "Show Album":
+                let albumViewController = segue.destination as! AlbumViewController
+                print(albumViewController.backgroundImageView)
+                print(albumViewController.albumCoverImageView)
+                print(albumViewController.descriptionTextView)
+            default:
+                break
+            }
+        }
     }
     
 }

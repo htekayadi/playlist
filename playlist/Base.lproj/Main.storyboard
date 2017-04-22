@@ -180,7 +180,7 @@
                         <outlet property="coverImage7" destination="eEa-qJ-29G" id="Tnt-wn-NgO"/>
                         <outlet property="coverImage8" destination="kh3-ka-Yae" id="xBg-ZZ-twM"/>
                         <outlet property="coverImage9" destination="vTR-MA-0XG" id="Rh7-Qs-5aX"/>
-                        <segue destination="Pk0-In-uTX" kind="show" id="Jcl-wj-e5e"/>
+                        <segue destination="Pk0-In-uTX" kind="show" identifier="Show Album" id="Jcl-wj-e5e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
